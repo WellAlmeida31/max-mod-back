@@ -17,6 +17,7 @@ public class ApplicationService {
 
     private final ApplicationRepository repository;
     private final ModelMapper modelMapper = new ModelMapper();
+    
     public Integer maxModNumber(MaxModDto maxModDto) {
         Integer x = maxModDto.getX();
         Integer y = maxModDto.getY();
